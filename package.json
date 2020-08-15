@@ -1,20 +1,20 @@
 {
   "name": "socket.io-rethinkdb",
-  "version": "0.0.5",
+  "version": "2.0.0",
   "description": "RethinkDB adapter for Socket.io",
   "repository": {
     "type": "git",
-    "url": "git@github.com:thejsj/socket.io-rethinkdb.git"
+    "url": "git@github.com:poster983/socket.io-rethinkdb.git"
   },
   "scripts": {
     "test": "mocha --reporter=spec"
   },
   "dependencies": {
-    "debug": "0.7.4",
+    "debug": "2.6.9",
     "msgpack-js": "0.3.0",
-    "rethinkdb": "^2.0.2",
-    "rethinkdb-init": "0.0.4",
-    "socket.io-adapter": "0.3.1",
+    "rethinkdb": "^2.4.2",
+    "rethinkdb-init": "^0.2.2",
+    "socket.io-adapter": "^1.1.0",
     "uid2": "0.0.3"
   },
   "devDependencies": {
@@ -24,18 +24,18 @@
     "mocha": "1.18.0",
     "optimist": "^0.6.1",
     "redis": "^0.12.1",
-    "socket.io": "1.0.2",
-    "socket.io-client": "1.0.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
     "socket.io-redis": "^0.1.4"
   },
   "bugs": {
-    "url": "https://github.com/thejsj/socket.io-rethinkdb/issues"
+    "url": "https://github.com/poster983/socket.io-rethinkdb/issues"
   },
-  "homepage": "https://github.com/thejsj/socket.io-rethinkdb",
+  "homepage": "https://github.com/poster983/socket.io-rethinkdb",
   "maintainers": [
     {
-      "name": "thejsj",
-      "email": "jorge.silva@thejsj.com"
+      "name": "Joseph",
+      "email": "joseph@hassell.dev"
     }
   ]
 }
